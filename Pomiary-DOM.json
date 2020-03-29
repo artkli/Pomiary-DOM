@@ -1,16 +1,16 @@
 {
   "__inputs": [
     {
-      "name": "DS_PEP",
-      "label": "pep",
+      "name": "DS_TELEGRAF",
+      "label": "telegraf",
       "description": "",
       "type": "datasource",
       "pluginId": "influxdb",
       "pluginName": "InfluxDB"
     },
     {
-      "name": "DS_TELEGRAF",
-      "label": "telegraf",
+      "name": "DS_PEP",
+      "label": "pep",
       "description": "",
       "type": "datasource",
       "pluginId": "influxdb",
@@ -478,7 +478,7 @@
           "tags": []
         },
         {
-          "alias": "temperatura - Aquara",
+          "alias": "temperatura - Aqara",
           "groupBy": [
             {
               "params": [
@@ -1124,5 +1124,5 @@
   "timezone": "",
   "title": "Pomiary DOM",
   "uid": "NgdQDAZgz",
-  "version": 64
+  "version": 66
 }
